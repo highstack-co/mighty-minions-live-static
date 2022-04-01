@@ -4,15 +4,17 @@
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  /*background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 50% 50%;*/
 }
 
 .w-embed-youtubevideo:empty {
   min-height: 75px;
-  padding-bottom: 56.25%;
 }
+.youtube-video-container .youtube-video-wrapper .w-embed-youtubevideo.youtube {
+}
+
 
 .main {
   overflow: hidden;
@@ -505,10 +507,13 @@
 }
 
 .wrapper-c2 {
-  width: 98%;
-  max-width: 1182px;
-  margin: 55px auto 0px;
-  padding-top: 100px;
+	width: 100%;
+	max-width: 1080px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+	padding-top: 100px;
 }
 
 .text-block-6 {
