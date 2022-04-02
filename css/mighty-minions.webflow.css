@@ -1,18 +1,17 @@
 .w-embed-youtubevideo {
-	width: 720px;
-	position: relative;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;  
-	background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
-    background-size: cover;
-    background-position: 50% 50%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .w-embed-youtubevideo:empty {
   min-height: 75px;
-}
-.youtube-video-container .youtube-video-wrapper .w-embed-youtubevideo.youtube {
+  padding-bottom: 56.25%;
 }
 
 
@@ -507,13 +506,10 @@
 }
 
 .wrapper-c2 {
-	width: 100%;
-	max-width: 1280px;
-	margin-top: auto;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: auto;
-	padding-top: 0px;
+	width: 98%;
+  	max-width: 1182px;
+	margin: 55px auto 0px;
+  	padding-top: 100px;
 }
 
 .text-block-6 {
@@ -996,12 +992,12 @@
   color: #fff;
   text-shadow:
 	  
-      0 0 3vw white,
-      0 0 3vw white,
-      0 0 4vw white,
-	  0 0 1vw black,
-      0 0 90vw white,
-      0 0 96vw white;
+      0 0 3px white,
+      0 0 8px white,
+      0 0 21px white,
+	  0 0 5px black,
+      0 0 40px white,
+      0 0 96px white;
 	
   }
 
@@ -3276,7 +3272,7 @@
 
 .youtube {
   height: 100%;
-  border-radius: 50px;
+  border-radius: 30px;
   background-image: none;
   background-size: cover;
 }
@@ -3293,8 +3289,8 @@
 }
 
 .youtube-video-container {
-  width: 100%;
-  max-width: 1280px;
+  width: 80%;
+  max-width: 1600px;
   margin-right: auto;
   margin-bottom: 0px;
   margin-left: auto;
@@ -5011,9 +5007,7 @@
   }
 
   .wrapper-c2 {
-	padding-top: 0px;
-	width: 1280px;
-	padding-right: 100px;
+	padding-top: 20px;
   }
 
   .heading-2 {
@@ -5511,9 +5505,9 @@
   }
 
   .youtube-video-container {
-    width: 1280px;
-    margin-right: auto;
-    margin-left: auto;
+     width: 78%;
+     margin-right: auto;
+     margin-left: auto;
   }
 
   .block1-c2-c2-copy {
@@ -6077,7 +6071,7 @@
   }
 
   .youtube-video-container {
-    width: 1280px;
+    width: 86%;
   }
 
   .block1-c2-c2-copy {
@@ -6941,8 +6935,8 @@
   }
 
   .youtube-video-container {
-    margin-bottom: 0px;
-    border-radius: 0px;
+	margin-bottom: 60px;
+    border-radius: 30px;
   }
 
   .fire-minion-animation {
